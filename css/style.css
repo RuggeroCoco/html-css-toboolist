@@ -11,6 +11,9 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+h3 {
+    margin-bottom: 1rem;
+}
 
 /* HEADER */
 .header {
@@ -31,15 +34,16 @@ body {
 
 /* MAIN */
 .container {
-    width: 70%;
+    width: 50%;
     margin: 50px auto;
     background-color: white;
     border-radius: 10px;
 }
 
+/* Actions */
 .actions {
     padding: .8rem 1.4rem;
-    border-bottom: 2px solid lightgray;
+    border-bottom: 4px solid lightgray;
 }
 /* BUTTONS */
 .btn {
@@ -60,4 +64,75 @@ body {
     background-color: white;
     border: 1px solid gray;
     color: grey;
+}
+
+/* TASKS */
+.tasks {
+    padding: 1.2rem 1.4rem;
+}
+
+.tasks ul {
+    list-style-type: none;
+}
+
+.main-list > li {
+    margin-bottom: 1rem;
+}
+
+.arrow {
+    margin-right: .5rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.secondary-list > li {
+    margin-bottom: 2rem;
+}
+
+.circle {
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    text-align: center;
+    line-height: 1.5rem;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.checked {
+    border-color: green;
+    color: green;
+}
+
+.cross {
+    border-color: red;
+    color: red;
+}
+
+.tag {
+    background-color: gray;
+    color: white;
+    padding: .5rem 1rem;
+    margin-left: 1rem;
+    border-radius: 20px;
+}
+
+.editorial {
+    background-color: #47adf1;
+}
+
+.recruiting {
+    background-color: lightcoral;
+}
+
+.goals {
+    background-color: blueviolet;
+}
+
+.website {
+    background-color: lightcoral;
+}
+
+.sales {
+    background-color: green;
 }
